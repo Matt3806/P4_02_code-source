@@ -677,6 +677,7 @@ a {
 }
 
 p {
+    margin: auto;
     font-size: 16px;
 }
 
@@ -776,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -823,7 +824,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1050,6 +1051,9 @@ h4 {
 .avis--source{
     font-size:16px;
 }
+.logop2{
+    width:100%;
+}
 .partenaires{
     display:flex;
     flex-direction: column;
@@ -1095,4 +1099,14 @@ footer li:hover{
     background-color:black;
     color:white;
     transition:.5s ease-in-out;
+}
+.adresse{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+footer p {
+    color:white;
 }
