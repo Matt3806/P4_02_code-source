@@ -17,6 +17,10 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus{
+    border-bottom:solid black;
+} 
+  
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -742,6 +746,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width:100%;
 }
 
 .portfolio-row {
@@ -1085,21 +1090,16 @@ footer li{
     width:100%;
     max-width: 300px;
     height:48px;
-    border:solid black;
+    border:solid white;
+    background-color:black;
     display:flex;
     align-items: center;
     justify-content: space-around;
     margin: 10px 20px 10px 20px;
     font-size: 16px;
-}
-
-
-footer li:hover{
-    border: solid white;
-    background-color:black;
     color:white;
-    transition:.5s ease-in-out;
 }
+
 .adresse{
     display:flex;
     flex-direction:column;
